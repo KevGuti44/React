@@ -17,7 +17,7 @@ export default function PokemonCard({ pokemon }: pokemonType) {
         ) : (
           <p>???</p>
         )}
-        <figcaption>Bulbasaur</figcaption>
+        <figcaption>{pokemon.name}</figcaption>
       </figure>
     </>
   );
