@@ -1,11 +1,11 @@
 interface pokemonType {
   pokemon: {
-    name: "string";
-    imgSrc?: "string";
+    name: string;
+    imgSrc?: string;
   };
 }
 
-export default function PokemonCard({ pokemon }: pokemonTyqpe) {
+export default function PokemonCard({ pokemon }: pokemonType) {
   // const pokemon = pokemonList[0];
   // const pokemon = { name: "mew", imgSrc: null };
 
